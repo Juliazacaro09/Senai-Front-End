@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 12</title>
+    <style>
+        .menu { display: flex; }
+        .hamburguer { display: none; font-size: 24px; cursor: pointer; }
+        @media (max-width: 600px) {
+            .menu { display: none; }
+            .hamburguer { display: block; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hamburguer">&#9776;</div>
+    <nav class="menu">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+    </nav>
+</body>
+</html>
