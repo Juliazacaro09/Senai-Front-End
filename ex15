@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 15</title>
+    <style>
+        .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; width: 300px; }
+        .carousel img { width: 300px; scroll-snap-align: start; }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="https://picsum.photos/300/200?random=1" alt="1">
+        <img src="https://picsum.photos/300/200?random=2" alt="2">
+    </div>
+</body>
+</html>
