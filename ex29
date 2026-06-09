@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 29</title>
+    <style>
+        .nav { position: fixed; top: 0; left: 0; width: 100%; background: #1976d2; color: white; padding: 15px; font-family: sans-serif; }
+    </style>
+</head>
+<body>
+    <div class="nav">MUI Nav Bar</div>
+</body>
+</html>
