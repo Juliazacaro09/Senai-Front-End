@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 25</title>
+    <style>
+        input::placeholder { color: red; }
+        input:focus { background: lightyellow; outline: none; border: 2px solid green; }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Texto...">
+</body>
+</html>
