@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 22</title>
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        button { animation: pulse 2s infinite; padding: 10px; }
+    </style>
+</head>
+<body>
+    <button>Animado</button>
+</body>
+</html>
