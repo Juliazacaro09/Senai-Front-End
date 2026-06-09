@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 21</title>
+    <style>
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        .item { background: #ccc; padding: 20px; }
+    </style>
+</head>
+<body>
+    <div class="grid"><div class="item"></div><div class="item"></div><div class="item"></div></div>
+</body>
+</html>
