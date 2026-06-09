@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 16</title>
+</head>
+<body>
+    <button id="btn">Botão</button>
+    <script>
+        const b = document.getElementById('btn');
+        b.addEventListener('mouseover', () => b.style.backgroundColor = 'red');
+        b.addEventListener('mouseout', () => b.style.backgroundColor = '');
+    </script>
+</body>
+</html>
