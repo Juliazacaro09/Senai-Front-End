@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 33</title>
+</head>
+<body>
+    <form id="f" onsubmit="event.preventDefault(); alert('Validado via API Mock');">
+        <input type="text" required>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
