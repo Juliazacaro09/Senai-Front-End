@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 24</title>
+    <style>
+        button { clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%); padding: 10px 20px; background: blue; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <button>Custom</button>
+</body>
+</html>
