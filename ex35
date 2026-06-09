@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 35</title>
+</head>
+<body>
+    <div id="geo"></div>
+    <script>
+        navigator.geolocation.getCurrentPosition(p => {
+            document.getElementById('geo').innerText = `Lat: ${p.coords.latitude} - Lon: ${p.coords.longitude}`;
+        });
+    </script>
+</body>
+</html>
