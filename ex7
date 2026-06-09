@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <form>
+        <label>E-mail:</label> <input type="email" required><br>
+        <label>Senha:</label> <input type="password" pattern=".{6,}" required><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
