@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 11</title>
+    <style>
+        body { background: lightblue; }
+        @media (max-width: 600px) {
+            body { background: lightgreen; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsivo</h1>
+</body>
+</html>
