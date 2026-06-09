@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 10</title>
+    <style>
+        .btn { background: #007bff; color: white; border: none; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="search" placeholder="Buscar...">
+        <button type="submit" class="btn">Pesquisar</button>
+    </form>
+</body>
+</html>
