@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 39</title>
+</head>
+<body>
+    <form>
+        <input type="email" inputmode="email" placeholder="E-mail">
+        <input type="tel" inputmode="tel" placeholder="Telefone">
+    </form>
+</body>
+</html>
