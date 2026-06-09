@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 9</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>Nome:</label> <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label>Rua:</label> <input type="text">
+        </fieldset>
+    </form>
+</body>
+</html>
