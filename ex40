@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 40</title>
+</head>
+<body>
+    <form aria-label="Acessível">
+        <label for="n">Nome:</label>
+        <input type="text" id="n" aria-required="true">
+        <img src="https://picsum.photos/50" alt="Avatar de perfil">
+    </form>
+</body>
+</html>
