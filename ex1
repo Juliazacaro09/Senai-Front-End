@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <header><h1>Topo do Site</h1></header>
+    <nav><a href="#">Menu</a></nav>
+    <main>
+        <section>
+            <article>
+                <h2>Artigo</h2>
+                <p>Conteúdo.</p>
+            </article>
+        </section>
+    </main>
+    <aside><p>Lateral</p></aside>
+    <footer><p>Rodapé</p></footer>
+</body>
+</html>
