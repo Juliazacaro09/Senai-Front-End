@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 28</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg p-5 bg-white">Tailwind</div>
+</body>
+</html>
