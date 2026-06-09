@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 34</title>
+</head>
+<body>
+    <ul id="users"></ul>
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(r => r.json())
+            .then(d => {
+                d.forEach(u => {
+                    let li = document.createElement('li');
+                    li.innerText = u.name;
+                    document.getElementById('users').appendChild(li);
+                });
+            });
+    </script>
+</body>
+</html>
