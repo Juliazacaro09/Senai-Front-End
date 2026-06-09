@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 32</title>
+</head>
+<body>
+    <input type="text" id="find" oninput="search()">
+    <ul id="items"><li>Item A</li><li>Item B</li></ul>
+    <script>
+        function search() {
+            let v = document.getElementById('find').value.toLowerCase();
+            document.querySelectorAll('#items li').forEach(li => {
+                li.style.display = li.innerText.toLowerCase().includes(v) ? '' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
