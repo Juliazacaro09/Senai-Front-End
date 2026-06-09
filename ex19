@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 19</title>
+    <style>
+        img { width: 100px; transition: 0.2s; }
+        .zoom { transform: scale(2); }
+    </style>
+</head>
+<body>
+    <img src="https://picsum.photos/100" onclick="this.classList.toggle('zoom')">
+</body>
+</html>
